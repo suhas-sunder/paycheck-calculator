@@ -2,13 +2,13 @@
 import { Link } from "react-router";
 import type { Route } from "./+types/terms-of-service";
 export const meta: Route.MetaFunction = () => {
-  const canonical = "https://www.paycheckcalculator.com/terms-of-service";
+  const canonical = "https://www.paycheckconverter.com/terms-of-service";
 
-  const title = "Terms of Service | paycheckcalculator";
+  const title = "Terms of Service | paycheckconverter";
   const description =
-    "Read the paycheckcalculator Terms of Service. Learn about your rights and responsibilities when using paycheckcalculator.com.";
+    "Read the paycheckconverter Terms of Service. Learn about your rights and responsibilities when using paycheckconverter.com.";
 
-  const ogImage = "https://www.paycheckcalculator.com/og/paycheckcalculator-terms.jpg";
+  const ogImage = "https://www.paycheckconverter.com/og/paycheckconverter-terms.jpg";
 
   return [
     { title },
@@ -16,13 +16,13 @@ export const meta: Route.MetaFunction = () => {
 
     { tagName: "link", rel: "canonical", href: canonical },
 
-    { property: "og:site_name", content: "paycheckcalculator" },
+    { property: "og:site_name", content: "paycheckconverter" },
     { property: "og:title", content: title },
     { property: "og:description", content: description },
     { property: "og:type", content: "website" },
     { property: "og:url", content: canonical },
     { property: "og:image", content: ogImage },
-    { property: "og:image:alt", content: "paycheckcalculator terms of service" },
+    { property: "og:image:alt", content: "paycheckconverter terms of service" },
     { property: "og:locale", content: "en_US" },
 
     { name: "twitter:card", content: "summary_large_image" },
@@ -36,7 +36,7 @@ export const meta: Route.MetaFunction = () => {
 
 export default function TermsOfService() {
   const pageName = "Terms of Service";
-  const canonicalUrl = "https://www.paycheckcalculator.com/terms-of-service";
+  const canonicalUrl = "https://www.paycheckconverter.com/terms-of-service";
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -46,7 +46,7 @@ export default function TermsOfService() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.paycheckcalculator.com/",
+        item: "https://www.paycheckconverter.com/",
       },
       {
         "@type": "ListItem",
@@ -60,8 +60,8 @@ export default function TermsOfService() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "paycheckcalculator.com",
-    url: "https://www.paycheckcalculator.com/",
+    name: "paycheckconverter.com",
+    url: "https://www.paycheckconverter.com/",
   };
 
   const webPageSchema = {
@@ -109,26 +109,26 @@ export default function TermsOfService() {
           </h2>
 
           <p>
-            We are paycheckcalculator (https://www.paycheckcalculator.com) ("Company", "we",
+            We are paycheckconverter (https://www.paycheckconverter.com) ("Company", "we",
             "us", "our").
           </p>
 
           <p>
-            We operate the website https://www.paycheckcalculator.com (the "Site"), as
+            We operate the website https://www.paycheckconverter.com (the "Site"), as
             well as any other related products and services that refer or link
             to these legal terms (the "Legal Terms") (collectively, the
             "Services").
           </p>
 
           <p>
-            You can contact us by email at admin@paycheckcalculator.com or by mail to
-            https://www.paycheckcalculator.com, Toronto, Ontario, Canada.
+            You can contact us by email at admin@paycheckconverter.com or by mail to
+            https://www.paycheckconverter.com, Toronto, Ontario, Canada.
           </p>
 
           <p>
             These Legal Terms constitute a legally binding agreement made
             between you, whether personally or on behalf of an entity ("you"),
-            and paycheckcalculator, concerning your access to and use of the Services.
+            and paycheckconverter, concerning your access to and use of the Services.
             You agree that by accessing the Services, you have read, understood,
             and agreed to be bound by all of these Legal Terms. IF YOU DO NOT
             AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY

@@ -5,49 +5,49 @@ import { Link } from "react-router";
 import type { Route } from "./+types/privacy-policy";
 
 export const meta: Route.MetaFunction = () => [
-  { title: "Privacy Policy | paycheckcalculator.com" },
+  { title: "Privacy Policy | paycheckconverter.com" },
   {
     name: "description",
     content:
-      "Read the paycheckcalculator.com privacy policy. Learn what information we collect, how it is used, and what choices you have when using paycheckcalculator.com tools.",
+      "Read the paycheckconverter.com privacy policy. Learn what information we collect, how it is used, and what choices you have when using paycheckconverter.com tools.",
   },
   {
     name: "keywords",
     content:
-      "paycheckcalculator privacy policy, paycheckcalculator.com privacy, rent calculator privacy, cookie policy, analytics, advertising, data processing",
+      "paycheckconverter privacy policy, paycheckconverter.com privacy, rent calculator privacy, cookie policy, analytics, advertising, data processing",
   },
   { name: "robots", content: "index,follow" },
-  { name: "author", content: "paycheckcalculator.com" },
+  { name: "author", content: "paycheckconverter.com" },
   { name: "theme-color", content: "#f8fafc" },
 
   { property: "og:type", content: "website" },
-  { property: "og:site_name", content: "paycheckcalculator.com" },
-  { property: "og:title", content: "Privacy Policy | paycheckcalculator.com" },
+  { property: "og:site_name", content: "paycheckconverter.com" },
+  { property: "og:title", content: "Privacy Policy | paycheckconverter.com" },
   {
     property: "og:description",
     content:
-      "Read the paycheckcalculator.com privacy policy, including what we collect, how we use it, and your privacy choices.",
+      "Read the paycheckconverter.com privacy policy, including what we collect, how we use it, and your privacy choices.",
   },
-  { property: "og:url", content: "https://www.paycheckcalculator.com/privacy-policy" },
-  { property: "og:image", content: "https://www.paycheckcalculator.com/og-image.jpg" },
-  { property: "og:image:alt", content: "paycheckcalculator.com privacy policy" },
+  { property: "og:url", content: "https://www.paycheckconverter.com/privacy-policy" },
+  { property: "og:image", content: "https://www.paycheckconverter.com/og-image.jpg" },
+  { property: "og:image:alt", content: "paycheckconverter.com privacy policy" },
   { property: "og:locale", content: "en_US" },
 
   { name: "twitter:card", content: "summary_large_image" },
-  { name: "twitter:title", content: "Privacy Policy | paycheckcalculator.com" },
+  { name: "twitter:title", content: "Privacy Policy | paycheckconverter.com" },
   {
     name: "twitter:description",
     content:
-      "Read the paycheckcalculator.com privacy policy, including what we collect, how we use it, and your privacy choices.",
+      "Read the paycheckconverter.com privacy policy, including what we collect, how we use it, and your privacy choices.",
   },
-  { name: "twitter:image", content: "https://www.paycheckcalculator.com/og-image.jpg" },
+  { name: "twitter:image", content: "https://www.paycheckconverter.com/og-image.jpg" },
 
-  { tagName: "link", rel: "canonical", href: "https://www.paycheckcalculator.com/privacy-policy" },
+  { tagName: "link", rel: "canonical", href: "https://www.paycheckconverter.com/privacy-policy" },
 ];
 
 export default function PrivacyPolicy() {
   const pageName = "Privacy Policy";
-  const canonicalUrl = "https://www.paycheckcalculator.com/privacy-policy";
+  const canonicalUrl = "https://www.paycheckconverter.com/privacy-policy";
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.paycheckcalculator.com/",
+        item: "https://www.paycheckconverter.com/",
       },
       { "@type": "ListItem", position: 2, name: pageName, item: canonicalUrl },
     ],
@@ -66,8 +66,8 @@ export default function PrivacyPolicy() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "paycheckcalculator.com",
-    url: "https://www.paycheckcalculator.com/",
+    name: "paycheckconverter.com",
+    url: "https://www.paycheckconverter.com/",
   };
 
   const webPageSchema = {
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
     "@type": "WebPage",
     name: pageName,
     description:
-      "Privacy policy describing how paycheckcalculator.com collects, uses, and shares information and what choices users have.",
+      "Privacy policy describing how paycheckconverter.com collects, uses, and shares information and what choices users have.",
     url: canonicalUrl,
   };
 
@@ -100,7 +100,7 @@ export default function PrivacyPolicy() {
 
           <div className="mt-5 space-y-4 text-slate-700 leading-relaxed">
             <p>
-              This privacy notice for paycheckcalculator.com ("we", "us", or "our")
+              This privacy notice for paycheckconverter.com ("we", "us", or "our")
               describes how and why we might collect, store, use, and/or share
               ("process") your information when you use our services
               ("Services"), such as when you:
@@ -108,7 +108,7 @@ export default function PrivacyPolicy() {
 
             <ul className="list-inside list-disc flex flex-col gap-2 pl-5">
               <li>
-                Visit our website at https://www.paycheckcalculator.com or any page that
+                Visit our website at https://www.paycheckconverter.com or any page that
                 links to this privacy notice
               </li>
               <li>
@@ -124,12 +124,12 @@ export default function PrivacyPolicy() {
 
             <p className="space-y-1">
               <span className="block">
-                Data controller: paycheckcalculator.com is responsible for deciding
+                Data controller: paycheckconverter.com is responsible for deciding
                 how your personal information is processed for the purposes
                 described in this privacy notice.
               </span>
               <span className="block">
-                Contact: admin@paycheckcalculator.com (Toronto, Ontario, Canada).
+                Contact: admin@paycheckconverter.com (Toronto, Ontario, Canada).
               </span>
             </p>
           </div>
@@ -452,7 +452,7 @@ export default function PrivacyPolicy() {
                 The Services are intended for a general audience and are not
                 directed to children under 13. If you believe a child has
                 provided personal information to us, contact us at
-                admin@paycheckcalculator.com and we will take appropriate steps.
+                admin@paycheckconverter.com and we will take appropriate steps.
               </p>
             </Section>
 
@@ -465,7 +465,7 @@ export default function PrivacyPolicy() {
               <p>
                 You can request access to, correction of, or deletion of your
                 personal information by contacting us at
-                admin@paycheckcalculator.com. We may need to verify your identity
+                admin@paycheckconverter.com. We may need to verify your identity
                 before responding. Where applicable, you may also have the right
                 to object to certain processing or request portability of your
                 information.
@@ -488,9 +488,9 @@ export default function PrivacyPolicy() {
             <Section title="11. CONTACT US">
               <p>
                 If you have questions or comments about this notice, you may
-                email us at admin@paycheckcalculator.com.
+                email us at admin@paycheckconverter.com.
               </p>
-              <p>paycheckcalculator.com</p>
+              <p>paycheckconverter.com</p>
               <p>Toronto, Ontario</p>
               <p>Canada</p>
             </Section>

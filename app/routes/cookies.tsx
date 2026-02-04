@@ -5,51 +5,51 @@ import { Link } from "react-router";
 import type { Route } from "./+types/cookies";
 
 export const meta: Route.MetaFunction = () => [
-  { title: "Cookie Policy | paycheckcalculator.com" },
+  { title: "Cookie Policy | paycheckconverter.com" },
   {
     name: "description",
     content:
-      "Read the paycheckcalculator.com cookie policy. Learn how cookies and similar technologies are used on paycheckcalculator.com, including analytics and advertising where applicable.",
+      "Read the paycheckconverter.com cookie policy. Learn how cookies and similar technologies are used on paycheckconverter.com, including analytics and advertising where applicable.",
   },
   {
     name: "keywords",
     content:
-      "paycheckcalculator cookie policy, cookies policy, cookies, analytics cookies, advertising cookies, tracking technologies, consent",
+      "paycheckconverter cookie policy, cookies policy, cookies, analytics cookies, advertising cookies, tracking technologies, consent",
   },
   { name: "robots", content: "index,follow" },
-  { name: "author", content: "paycheckcalculator.com" },
+  { name: "author", content: "paycheckconverter.com" },
   { name: "theme-color", content: "#f8fafc" },
 
   { property: "og:type", content: "website" },
-  { property: "og:site_name", content: "paycheckcalculator.com" },
-  { property: "og:title", content: "Cookie Policy | paycheckcalculator.com" },
+  { property: "og:site_name", content: "paycheckconverter.com" },
+  { property: "og:title", content: "Cookie Policy | paycheckconverter.com" },
   {
     property: "og:description",
     content:
-      "Learn how paycheckcalculator.com uses cookies and similar technologies, including essential, analytics, and advertising cookies where applicable.",
+      "Learn how paycheckconverter.com uses cookies and similar technologies, including essential, analytics, and advertising cookies where applicable.",
   },
-  { property: "og:url", content: "https://www.paycheckcalculator.com/cookies" },
-  { property: "og:image", content: "https://www.paycheckcalculator.com/og-image.jpg" },
-  { property: "og:image:alt", content: "paycheckcalculator.com cookie policy" },
+  { property: "og:url", content: "https://www.paycheckconverter.com/cookies" },
+  { property: "og:image", content: "https://www.paycheckconverter.com/og-image.jpg" },
+  { property: "og:image:alt", content: "paycheckconverter.com cookie policy" },
   { property: "og:locale", content: "en_US" },
 
   { name: "twitter:card", content: "summary_large_image" },
-  { name: "twitter:title", content: "Cookie Policy | paycheckcalculator.com" },
+  { name: "twitter:title", content: "Cookie Policy | paycheckconverter.com" },
   {
     name: "twitter:description",
     content:
-      "Learn how paycheckcalculator.com uses cookies and similar technologies, including essential, analytics, and advertising cookies where applicable.",
+      "Learn how paycheckconverter.com uses cookies and similar technologies, including essential, analytics, and advertising cookies where applicable.",
   },
-  { name: "twitter:image", content: "https://www.paycheckcalculator.com/og-image.jpg" },
+  { name: "twitter:image", content: "https://www.paycheckconverter.com/og-image.jpg" },
 
-  { tagName: "link", rel: "canonical", href: "https://www.paycheckcalculator.com/cookies" },
+  { tagName: "link", rel: "canonical", href: "https://www.paycheckconverter.com/cookies" },
 ];
 
 export default function CookiesPolicy() {
   const pageName = "Cookie Policy";
 
   
-  const canonicalUrl = "https://www.paycheckcalculator.com/cookies";
+  const canonicalUrl = "https://www.paycheckconverter.com/cookies";
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -59,7 +59,7 @@ export default function CookiesPolicy() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.paycheckcalculator.com/",
+        item: "https://www.paycheckconverter.com/",
       },
       {
         "@type": "ListItem",
@@ -73,8 +73,8 @@ export default function CookiesPolicy() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "paycheckcalculator.com",
-    url: "https://www.paycheckcalculator.com/",
+    name: "paycheckconverter.com",
+    url: "https://www.paycheckconverter.com/",
   };
 
   const webPageSchema = {
@@ -114,10 +114,10 @@ return (
 
           <div className="mt-5 space-y-4 text-slate-700 leading-relaxed">
             <p>
-              This Cookie Policy explains how https://www.paycheckcalculator.com
+              This Cookie Policy explains how https://www.paycheckconverter.com
               ("Company", "we", "us", and "our") uses cookies and similar
               technologies to recognize you when you visit our website at
-              https://www.paycheckcalculator.com ("Website"). It explains what these
+              https://www.paycheckconverter.com ("Website"). It explains what these
               technologies are and why we use them, as well as your choices to
               control our use of them.
             </p>
@@ -144,7 +144,7 @@ return (
               </p>
               <p>
                 Cookies set by the website owner (in this case,
-                https://www.paycheckcalculator.com) are called "first-party cookies."
+                https://www.paycheckconverter.com) are called "first-party cookies."
                 Cookies set by parties other than the website owner are called
                 "third-party cookies." Third-party cookies enable third-party
                 features or functionality to be provided on or through the
@@ -308,7 +308,7 @@ return (
             <Section title="Where can I get further information?">
               <p>
                 If you have any questions about our use of cookies or other
-                technologies, please contact us at: admin@paycheckcalculator.com.
+                technologies, please contact us at: admin@paycheckconverter.com.
               </p>
             </Section>
           </div>

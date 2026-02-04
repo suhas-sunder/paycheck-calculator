@@ -16,7 +16,7 @@ export const meta: Route.MetaFunction = () => [
       "paycheck calculator, gross to net paycheck, net pay estimator, biweekly paycheck, semi-monthly paycheck, monthly paycheck, withholding calculator, deductions calculator, take home pay estimate",
   },
   { name: "robots", content: "index,follow" },
-  { name: "author", content: "PaycheckCalculator.com" },
+  { name: "author", content: "PaycheckConverter.com" },
   { name: "theme-color", content: "#f8fafc" },
 
   // Open Graph
@@ -30,11 +30,11 @@ export const meta: Route.MetaFunction = () => [
     content:
       "Estimate net pay per paycheck from gross income and pay frequency. Add optional withholding and deductions you control. Exact decimals and transparent math.",
   },
-  { property: "og:url", content: "https://www.paycheckcalculator.com" },
-  { property: "og:site_name", content: "PaycheckCalculator.com" },
+  { property: "og:url", content: "https://www.paycheckconverter.com" },
+  { property: "og:site_name", content: "PaycheckConverter.com" },
   {
     property: "og:image",
-    content: "https://www.paycheckcalculator.com/og-image.jpg",
+    content: "https://www.paycheckconverter.com/og-image.jpg",
   },
 
   // Twitter
@@ -50,12 +50,12 @@ export const meta: Route.MetaFunction = () => [
   },
   {
     name: "twitter:image",
-    content: "https://www.paycheckcalculator.com/og-image.jpg",
+    content: "https://www.paycheckconverter.com/og-image.jpg",
   },
   {
     tagName: "link",
     rel: "canonical",
-    href: "https://www.paycheckcalculator.com",
+    href: "https://www.paycheckconverter.com",
   },
 ];
 
@@ -944,8 +944,8 @@ export default function Home() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "PaycheckCalculator.com",
-    url: "https://www.paycheckcalculator.com",
+    name: "PaycheckConverter.com",
+    url: "https://www.paycheckconverter.com",
   };
 
   const webPageSchema = {
@@ -954,7 +954,7 @@ export default function Home() {
     name: "Paycheck Calculator: Estimate Net Pay From Gross",
     description:
       "Estimate net pay per paycheck from a gross annual amount and pay frequency. Add optional withholding and deductions you control with exact decimals.",
-    url: "https://www.paycheckcalculator.com",
+    url: "https://www.paycheckconverter.com",
   };
 
   const amountHelpId = "gross-annual-help";

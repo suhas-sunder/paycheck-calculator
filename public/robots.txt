@@ -2,7 +2,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.paycheckcalculator.com/sitemap.xml
+Sitemap: https://www.paycheckconverter.com/sitemap.xml
 
 # --- disallowed paths (typical CMS / system dirs) ---
 Disallow: /wp-admin/
