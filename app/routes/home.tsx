@@ -1930,7 +1930,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="faq" className="max-w-5xl mx-auto pb-16 px-6">
+      <section id="faq" className="max-w-5xl mx-auto pb-16 px-6 pt-6">
         <h2 className="text-3xl font-bold text-center mb-10 text-sky-800 tracking-tight">
           Frequently Asked Questions
         </h2>
