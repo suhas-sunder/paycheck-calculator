@@ -1,0 +1,12 @@
+[[redirects]]
+  from = "/*/"
+  to = "/:splat"
+  status = 301
+
+
+[build]
+  command = "react-router build"
+  publish = "build/client"
+
+[dev]
+  command = "react-router dev"
